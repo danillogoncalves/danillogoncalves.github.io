@@ -1,0 +1,15 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-style: normal;
+  margin:0; 
+  padding:0;
+  vertical-align:baseline;
+  position: relative;
+}
+
+:root {
+  --primary_color_font: #201e50;
+  --primary_color_background: #F2F2F2;
+}

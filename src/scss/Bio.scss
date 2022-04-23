@@ -1,0 +1,18 @@
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 28px 0 40px;
+}
+
+.bio-container h1 {
+  font-size: 3em;
+  padding-bottom: 12px;
+}
+
+.bio-container p {
+  font-size: 2em;
+  text-align: justify;
+}

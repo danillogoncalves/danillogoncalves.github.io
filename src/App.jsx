@@ -7,6 +7,7 @@ import Bio from "./pages/Bio";
 import HardSkill from "./pages/HardSkill";
 import Projects from "./pages/Projects";
 import SoftSkill from "./pages/SoftSkill";
+import "./scss/App.scss";
 
 function App() {
   const { getDataGitHubRepos } = useContext(GithubAPIDataContext);
