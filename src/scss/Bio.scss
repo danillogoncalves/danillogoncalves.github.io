@@ -5,14 +5,28 @@
   width: 90%;
   margin: auto;
   padding: 28px 0 40px;
+
+  h1 {
+    font-size: 3em;
+    padding-bottom: 12px;
+  }
+
+  p {
+    font-size: 2em;
+    text-align: justify;
+  }
 }
 
-.bio-container h1 {
-  font-size: 3em;
-  padding-bottom: 12px;
+@media (max-width: 768px){
+  .bio-container {
+    padding: 20px 0 32px;
+    h1 {
+      font-size: 2em !important;
+    }
+  
+    p {
+      font-size: 1.5em !important;
+    }
+  }
 }
 
-.bio-container p {
-  font-size: 2em;
-  text-align: justify;
-}
