@@ -11,17 +11,15 @@ function Projects() {
         <Loading />
       ) : (
         <ul>
-          {gitHubRepos.map(({ id, name, html_url: htmlUrl, topics }) => {
-            if (topics.includes("portfolio")) {
-              return (
-                <li key={id}>
-                  <a href={htmlUrl} target="_blank" rel="noreferrer">
-                    {name}
-                  </a>
-                </li>
-              );
-            }
-            return null;
+          {gitHubRepos.map(({ id, name, htmlUrl }) => {
+            return (
+              <li key={id}>
+                <p>{name}</p>
+                <a href={htmlUrl} target="_blank" rel="noreferrer">
+                  Repositório
+                </a>
+              </li>
+            );
           })}
         </ul>
       )}

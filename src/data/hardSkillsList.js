@@ -5,7 +5,7 @@ const hardSkillsList = [
     video: "https://www.youtube.com/embed/JEhVB4VHsTI",
   },
   {
-    name: "Git, GitHub",
+    name: "Git e GitHub",
     image: "/images/logo-github.png",
     video: "https://www.youtube.com/embed/DqTITcMq68k",
   },
