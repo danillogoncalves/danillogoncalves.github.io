@@ -7,8 +7,8 @@ function GithubAPIDataProvider(props) {
   const [gitHubRepos, setGitHubRepos] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  async function buildingTheReposGitHub(array) {
-    const result = await array.reduce(
+  function buildingTheReposGitHub(array) {
+    const result = array.reduce(
       async (
         acc,
         { id, name, html_url: htmlUrl, languages_url: languagesUrl }
@@ -25,7 +25,6 @@ function GithubAPIDataProvider(props) {
       },
       []
     );
-
     return result;
   }
 

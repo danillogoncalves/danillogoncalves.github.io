@@ -1,18 +1,42 @@
 .projects-container {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-around;
   ul {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-around;
 
     li {
+      width: 30%;
       margin: 10px;
       padding: 10px;
       list-style-type: none;
+      a {
+        font-size: 3em;
+        text-decoration: none;
+        color: var(--color_font_light);
+      }
+      .languages {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .language-graphic {
+          display: flex;
+          height: 12px;
+          overflow: hidden;
+          border-radius: 6px;
+          margin-bottom: 12px;
+        }
+
+        .percentage-of-language {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
     }
-  }
-  a {
-    font-size: 3em;
-    text-decoration: none;
-    color: var(--color_font_light);
   }
 }
