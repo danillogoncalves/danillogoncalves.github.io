@@ -1,5 +1,6 @@
 .projects-container {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   width: 90%;
   justify-content: space-around;
@@ -10,7 +11,7 @@
     justify-content: space-around;
 
     li {
-      width: 30%;
+      width: 320px;
       margin: 10px;
       padding: 10px;
       list-style-type: none;
