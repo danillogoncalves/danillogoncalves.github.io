@@ -4,7 +4,7 @@
   align-items: center;
   width: 90%;
   margin: auto;
-  padding: 28px 0 40px;
+  padding: 28px 0 112px;
 
   h1 {
     font-size: 3em;
@@ -13,7 +13,12 @@
 
   p {
     font-size: 2em;
-    text-align: justify;
+    text-align: left;
+    line-height: 1.6em;
+    margin: 0.6em 0;
+    strong {
+      color: var(--color_strong_light);
+    }
   }
 }
 

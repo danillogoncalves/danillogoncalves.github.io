@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import GithubAPIDataContext from "./context/GithubAPIDataContext";
 import Bio from "./pages/Bio";
+import Contact from "./pages/Contact";
 import HardSkill from "./pages/HardSkill";
 import Projects from "./pages/Projects";
 import SoftSkill from "./pages/SoftSkill";
@@ -25,6 +26,7 @@ function App() {
           <Route path="/hardskill" element={<HardSkill />} />
           <Route path="/softskill" element={<SoftSkill />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

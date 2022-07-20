@@ -5,7 +5,6 @@ import "../scss/HardSkill.scss";
 function HardSkill() {
   return (
     <div className="hard-skill-container">
-      <h1>Hard Skill</h1>
       <ul>
         {hardSkillsList.map(({ name, image, video }) => (
           <li key={name}>
