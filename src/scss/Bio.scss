@@ -47,7 +47,11 @@
     .image-about-container {
       flex-direction: column;
       align-items: center;
-
+      .image-container {
+        img {
+          margin: 0;
+        }
+      }
       .about-container {
         width: 100%;
       }
