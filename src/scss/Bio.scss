@@ -6,6 +6,25 @@
   margin: auto;
   padding: 28px 0 112px;
 
+  .image-about-container {
+    display: flex;
+    .image-container, .about-container {
+      margin: 12px;
+      img {
+        width: 100%;
+        margin: 12px;
+      }
+    }
+
+    .image-container {
+      width: 40%;
+    }
+
+    .about-container {
+      width: 60%;
+    }
+  }
+
   h1 {
     font-size: 3em;
     padding-bottom: 12px;
@@ -24,7 +43,16 @@
 
 @media (max-width: 768px){
   .bio-container {
-    padding: 20px 0 32px;
+
+    .image-about-container {
+      flex-direction: column;
+      align-items: center;
+
+      .about-container {
+        width: 100%;
+      }
+    }
+    padding: 20px 0 64px;
     h1 {
       font-size: 2em !important;
     }

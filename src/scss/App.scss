@@ -25,13 +25,6 @@ header {
         color: var(--color_details_title_light);
       }
     }
-
-    img {
-      width: 100px;
-      border: 2px solid var(--color_font_menu_light);
-      border-radius: 8px;
-      box-shadow: 8px 16px 24px -8px rgba(30,30,60,0.25);
-    }
   }
 
   .container-link-header {
@@ -79,9 +72,19 @@ header {
     a {
       font-size: 2em !important;
     }
+  }
 
-    img {
-      width: 84px !important;
+  @media (max-width: 425px){
+    padding: 16px 0;
+    h1 {
+      font-size: 2.4em !important;
+    }
+    .container-link-header {
+      align-items: center;
+      a {
+        font-size: 1.8em !important;
+        text-align: center;
+      }
     }
   }
 }

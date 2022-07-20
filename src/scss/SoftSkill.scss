@@ -1,4 +1,4 @@
-.hard-skill-container {
+.soft-skill-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
       margin: 8px;
       width: 320px;
 
-      .title-hard-skill {
+      .title-soft-skill {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -34,14 +34,14 @@
 }
 
 @media (max-width: 768px){
-  .hard-skill-container {
+  .soft-skill-container {
     padding: 20px 0 64px;
     
   }
 }
 
 @media (max-width: 375px){
-  .hard-skill-container {
+  .soft-skill-container {
     ul {
       li {
         width: 300px;

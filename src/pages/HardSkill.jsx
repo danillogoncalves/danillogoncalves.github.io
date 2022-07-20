@@ -8,7 +8,7 @@ function HardSkill() {
       <ul>
         {hardSkillsList.map(({ name, image, video }) => (
           <li key={name}>
-            <div className="title-hadr-skill">
+            <div className="title-hard-skill">
               <span>{name}</span>
               <img style={{ width: "30px" }} src={image} alt="#" />
             </div>

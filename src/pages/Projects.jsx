@@ -8,6 +8,7 @@ const languageColor = {
   HTML: "#e34c26",
   CSS: "#563d7c",
   Shell: "#89e051",
+  Dockerfile: "#384d54",
 };
 
 function Projects() {
