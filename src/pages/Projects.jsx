@@ -10,6 +10,7 @@ const languageColor = {
   Shell: "#89e051",
   Dockerfile: "#384d54",
   TypeScript: "#3178c6",
+  SCSS: "#c6538c",
 };
 
 function Projects() {
